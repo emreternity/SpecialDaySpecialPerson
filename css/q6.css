@@ -1,0 +1,65 @@
+* {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: white;
+  background-color: black;
+  transition: all 0.2s;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hidden {
+  display: none;
+}
+
+#hazirbutton {
+  border-radius: 30px;
+  width: 20rem;
+  height: 10rem;
+  border: none;
+}
+
+#hazirbutton a {
+  color: white;
+}
+
+#hazirbutton:hover {
+  scale: 110%;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,173 @@
+* {
+  font-family: "Raleway", sans-serif;
+  text-decoration: none;
+  color: #d4a373;
+  transition: scale 0.2s ease-in-out;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(254, 250, 224);
+  background: radial-gradient(
+    circle,
+    rgba(254, 250, 224, 1) 0%,
+    rgba(250, 237, 205, 1) 100%
+  );
+}
+
+.nextbutton {
+  width: 10rem;
+  height: 5rem;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px,
+    rgba(0, 0, 0, 0.1) 0px 2px 4px 0px,
+    rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+  border: none;
+  border-radius: 15px;
+  background: rgb(254, 250, 224);
+  background: radial-gradient(
+    circle,
+    rgba(254, 250, 224, 1) 0%,
+    rgba(250, 237, 205, 1) 100%
+  );
+}
+
+.nextbutton a,
+.anstext {
+  font-size: 1.3rem;
+}
+
+.nextbutton:hover {
+  scale: 120%;
+}
+
+#questiondiv {
+  font-size: 2rem;
+  height: 100vh;
+  flex-direction: column;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  width: rem;
+}
+
+#buttons button {
+  margin: 2rem;
+}
+
+#difficulty {
+  font-size: 1rem;
+  margin: 1rem;
+}
+
+#nextquestionbtn {
+  position: relative;
+  z-index: 3;
+  animation-duration: 2s;
+}
+
+.congrats {
+  z-index: 3;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 20px;
+  padding: 1rem;
+  background-color: #fefae0;
+}
+
+.hidden {
+  display: none;
+}
+
+.smadik,
+.shocked {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 50rem;
+  z-index: 2;
+}
+
+#maxwell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#maxwellntext {
+  display: flex;
+  width: 25rem;
+  align-items: center;
+}
+
+#maxwell img {
+  width: 10rem;
+}
+
+#maxwell span {
+  color: black;
+  text-align: center;
+  margin: 1rem;
+}
+
+#themaxwelltext {
+  background-color: white;
+  border-radius: 2rem;
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid black;
+}
+
+#maxwellie {
+  position: absolute;
+  top: 5%;
+  left: 5%;
+  z-index: 5;
+}
+
+#maxwellname {
+  position: relative;
+  bottom: 0.7rem;
+  right: -0.7rem;
+  font-weight: 700;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+}

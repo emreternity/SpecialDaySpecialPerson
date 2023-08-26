@@ -1,0 +1,72 @@
+* {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  transition: all 0.2s;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+iframe {
+  position: absolute;
+  height: 120vh;
+  width: 100rem;
+}
+
+.wrong {
+  background-color: darkred;
+}
+
+#mapsinput {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  margin: 2rem;
+  width: 20rem;
+  height: 2rem;
+  border-radius: 1rem;
+  padding-left: 0.5rem;
+  color: white;
+}
+
+#mapsinput::placeholder {
+  color: white;
+}
+
+@media (min-width: 576px) {
+  html {
+    font-size: 7px;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+@media (min-width: 992px) {
+  html {
+    font-size: 9px;
+  }
+}
+
+@media (min-width: 1200px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 1400px) {
+  html {
+    font-size: 16px;
+  }
+}
